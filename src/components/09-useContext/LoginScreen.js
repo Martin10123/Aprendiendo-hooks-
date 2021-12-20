@@ -4,8 +4,6 @@ import { UserContext } from "./UserContext";
 const LoginScreen = () => {
   const { setUser } = useContext(UserContext);
 
-  console.log(setUser);
-
   return (
     <div>
       <h1>Login Screen</h1>

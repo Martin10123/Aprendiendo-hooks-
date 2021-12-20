@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MultipleCustom } from "../03-example/MultipleCustom";
+import { MultipleCustomHooks } from "../03-example/MultipleCustomHooks";
 
 const RealExampleRef = () => {
   const [show, setshow] = useState(false);
@@ -9,7 +9,7 @@ const RealExampleRef = () => {
       <h1>Real example ref</h1>
       <hr />
 
-      {show && <MultipleCustom />}
+      {show && <MultipleCustomHooks />}
 
       <button onClick={() => setshow(!show)} className="btn btn-primary mt-5">
         Show/hide
